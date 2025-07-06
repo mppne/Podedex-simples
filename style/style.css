@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__pokemons__1 {
+    display: flex;
+    width: auto;
+    max-height: 320px;
+}
+
+.container__pokemons__2 {
+    display: flex;
+    width: auto;
+    max-height: 320px;
+}
+
+.container__pokemons__3 {
+    display: flex;
+    width: auto;
+    max-height: 320px;
+}
+
+
+.container__pokemons__card {
+    display: flex;
+    border-radius: 20px 20px 0px 0px;
+    flex-direction: column;
+    background-color: #f0edee;
+    margin: 20px;
+    height: 310px;
+}
+
+.container__pokemons__card p {
+    margin: 0 0 5px 23px;
+
+}
+
+.container__pokemons__img {
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 0 7px;
+}
+
+.nome__pokemon {
+    margin: 0 0 0 23px;
+}
+
+.container__pokemons__card__btn {
+    display: flex;
+    gap: 6px;
+    margin: 6px 0px 0px 23px;
+}
+
+.container__pokemons__card__btn button {
+    width: 80px;
+    padding: 3px;
+
+}
+
+.container__pokemons__card__btn button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.Pokemom__planta {
+    background-color: rgb(87, 224, 87);
+}
+
+.Pokemom__agua {
+    background-color: aqua;
+}
+
+
+.color1 {
+    color: #74bde4;
+}
+
+.color2 {
+    color: #20d8d8;
+}
+
+.color3 {
+    color: #78e79e;
+}
+
+.color4 {
+    color: #f4e996;
+}
+
+.color5 {
+    color: #f8e1e8;
+}
